@@ -10,6 +10,7 @@
         {% block javascripts %}
             {% block importmap %}{{ importmap('app') }}{% endblock %}
         {% endblock %}
+        {{ pwa() }}
     </head>
     <body>
         {% block body %}{% endblock %}
